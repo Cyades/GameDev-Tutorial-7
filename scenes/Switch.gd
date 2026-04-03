@@ -12,6 +12,6 @@ var on = on_by_default
 func _ready():
 	light_node.light_energy = energy_when_on if on else energy_when_off
 
-func interact():
+func interact(_interactor: Node = null):
 	on = !on
 	light_node.light_energy = energy_when_on if on else energy_when_off

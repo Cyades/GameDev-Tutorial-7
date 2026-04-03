@@ -3,6 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://bjvvc4yryfqdq" path="res://scenes/player.tscn" id="1_bswci"]
 [ext_resource type="PackedScene" uid="uid://dltqory4o1xju" path="res://scenes/World 1.tscn" id="2_rus8k"]
 [ext_resource type="PackedScene" uid="uid://b2ri8kre0x8g6" path="res://scenes/area_trigger.tscn" id="3_rus8k"]
+[ext_resource type="PackedScene" path="res://scenes/pickup_item.tscn" id="4_nq5tt"]
 
 [node name="Level 1" type="Node3D" unique_id=1737312698]
 
@@ -28,3 +29,6 @@ sceneName = "Level 1"
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 7, -37)
 light_energy = 2.5
 omni_range = 60.0
+
+[node name="PickupBattery" parent="." instance=ExtResource("4_nq5tt")]
+transform = Transform3D(0.99999887, 0, -0.0014999995, 0, 1, 0, 0.0014999995, 0, 0.99999887, -1.244, 1.0403934, 18.05922)

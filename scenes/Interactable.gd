@@ -2,5 +2,5 @@ extends Node
 
 class_name Interactable
 
-func interact():
+func interact(_interactor: Node = null):
 	pass
