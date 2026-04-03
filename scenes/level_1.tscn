@@ -11,9 +11,20 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 21.48169)
 
 [node name="World 1" parent="." unique_id=1288464251 instance=ExtResource("2_rus8k")]
 
+[node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=1536289412]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 8, 0)
+light_energy = 2.5
+omni_range = 60.0
+
 [node name="Area Trigger" parent="." unique_id=1725435970 instance=ExtResource("3_rus8k")]
 transform = Transform3D(20, 0, 0, 0, 20, 0, 0, 0, 20, 0.8982544, 0, -37.057373)
 sceneName = "Win Screen"
 
 [node name="Area Trigger2" parent="." unique_id=387469490 instance=ExtResource("3_rus8k")]
 transform = Transform3D(25, 0, 0, 0, 25, 0, 0, 0, 25, 0, -20.487247, 0)
+sceneName = "Level 1"
+
+[node name="OmniLight3D2" type="OmniLight3D" parent="." unique_id=1912042540]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 7, -37)
+light_energy = 2.5
+omni_range = 60.0
